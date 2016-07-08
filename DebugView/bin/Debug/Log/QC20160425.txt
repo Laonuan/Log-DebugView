@@ -1,0 +1,76 @@
+ChequeSelfService - merge\PacketSender.h:71  14:23:25 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:23:25 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:23:25 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:23:25 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:27:13 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:27:13 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:27:13 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:27:13 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:28:42 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:28:42 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:28:42 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:28:42 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:29:48 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:29:48 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:29:48 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:29:48 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:36:48 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:36:48 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:36:48 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:36:48 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:37:59 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:37:59 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:37:59 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:37:59 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:40:25 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:40:25 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:40:25 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:40:25 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:42:06 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:42:06 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:42:06 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:42:06 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:45:08 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:45:08 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:45:08 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:45:08 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:46:34 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:46:34 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:46:34 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:46:34 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:48:29 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:48:29 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:48:29 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:48:29 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:49:49 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:49:49 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:49:49 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:49:49 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  14:53:05 Init
+ChequeSelfService - merge\PacketSender.cpp:451  14:53:05 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  14:53:05 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  14:53:05 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  15:03:51 Init
+ChequeSelfService - merge\PacketSender.cpp:451  15:03:51 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  15:03:51 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  15:03:51 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  15:09:32 Init
+ChequeSelfService - merge\PacketSender.cpp:451  15:09:32 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  15:09:32 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  15:09:32 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  15:10:35 Init
+ChequeSelfService - merge\PacketSender.cpp:451  15:10:35 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  15:10:35 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  15:10:35 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  15:12:15 Init
+ChequeSelfService - merge\PacketSender.cpp:451  15:12:15 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  15:12:15 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  15:12:15 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  15:13:25 Init
+ChequeSelfService - merge\PacketSender.cpp:451  15:13:25 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  15:13:25 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  15:13:25 SendRetriesThread exit!
+ChequeSelfService - merge\PacketSender.h:71  15:16:56 Init
+ChequeSelfService - merge\PacketSender.cpp:451  15:16:56 SendRetriesThread start!
+ChequeSelfService - merge\PacketSender.cpp:458  15:16:56 strSavePath: [D:\工商银行\\DataSave\\*.xml]
+ChequeSelfService - merge\PacketSender.cpp:464  15:16:56 SendRetriesThread exit!

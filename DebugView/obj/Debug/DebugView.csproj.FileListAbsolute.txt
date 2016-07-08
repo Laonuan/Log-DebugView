@@ -1,0 +1,18 @@
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\bin\Debug\DebugView.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\bin\Debug\DebugView.exe
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\bin\Debug\DebugView.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\obj\Debug\DebugView.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\obj\Debug\DebugView.Form1.resources
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\obj\Debug\DebugView.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\obj\Debug\DebugView.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\obj\Debug\DebugView.exe
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\obj\Debug\DebugView.pdb
+C:\Users\Administrator\Desktop\DebugView\DebugView\bin\Debug\DebugView.exe.config
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Debug\DebugView.exe
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Debug\DebugView.pdb
+C:\Users\Administrator\Desktop\DebugView\DebugView\bin\Debug\DebugView.exe
+C:\Users\Administrator\Desktop\DebugView\DebugView\bin\Debug\DebugView.pdb
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Debug\DebugView.Form1.resources
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Debug\DebugView.Properties.Resources.resources
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Debug\DebugView.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Debug\DebugView.csprojResolveAssemblyReference.cache

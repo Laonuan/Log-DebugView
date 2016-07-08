@@ -1,0 +1,26 @@
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\bin\Release\DebugView.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\bin\Release\DebugView.exe
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\bin\Release\DebugView.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\obj\Release\DebugView.Form1.resources
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\obj\Release\DebugView.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\obj\Release\DebugView.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\obj\Release\DebugView.exe
+c:\users\administrator\documents\visual studio 2013\Projects\DebugView\DebugView\obj\Release\DebugView.pdb
+C:\Users\Administrator\Desktop\DebugView\DebugView\bin\Release\DebugView.exe.config
+C:\Users\Administrator\Desktop\DebugView\DebugView\bin\Release\DebugView.exe
+C:\Users\Administrator\Desktop\DebugView\DebugView\bin\Release\DebugView.pdb
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Release\DebugView.Form1.resources
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Release\DebugView.Properties.Resources.resources
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Release\DebugView.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Release\DebugView.exe
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Release\DebugView.pdb
+C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Release\DebugView.csprojResolveAssemblyReference.cache
+C:\Users\h1945\Desktop\DebugView\DebugView\bin\Release\DebugView.exe.config
+C:\Users\h1945\Desktop\DebugView\DebugView\obj\Release\DebugView.exe
+C:\Users\h1945\Desktop\DebugView\DebugView\obj\Release\DebugView.pdb
+C:\Users\h1945\Desktop\DebugView\DebugView\bin\Release\DebugView.exe
+C:\Users\h1945\Desktop\DebugView\DebugView\bin\Release\DebugView.pdb
+C:\Users\h1945\Desktop\DebugView\DebugView\obj\Release\DebugView.csprojResolveAssemblyReference.cache
+C:\Users\h1945\Desktop\DebugView\DebugView\obj\Release\DebugView.Form1.resources
+C:\Users\h1945\Desktop\DebugView\DebugView\obj\Release\DebugView.Properties.Resources.resources
+C:\Users\h1945\Desktop\DebugView\DebugView\obj\Release\DebugView.csproj.GenerateResource.Cache
