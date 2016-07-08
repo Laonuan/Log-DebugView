@@ -90,13 +90,13 @@ namespace DebugView
             {
                 this.Height = 512;
                 buttonSize.Tag = false;
-                buttonSize.Text = "窗口变大";
+                buttonSize.Text = "Increase";
             }
             else
             {
                 this.Height = 1024;
                 buttonSize.Tag = true;
-                buttonSize.Text = "窗口缩小";
+                buttonSize.Text = "Reduce";
             }
 
             
@@ -106,12 +106,12 @@ namespace DebugView
         {
             if(!timer1.Enabled)
             {
-                buttonAutoReflash.Text = "停止刷新";
+                buttonAutoReflash.Text = "Stop Refresh";
                 timer1.Enabled = true;
             }
             else
             {
-                buttonAutoReflash.Text = "自动刷新";
+                buttonAutoReflash.Text = "Auto Refresh";
                 timer1.Enabled = false;
             }
         }

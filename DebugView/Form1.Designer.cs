@@ -48,7 +48,7 @@
             this.richTextBoxLog.Location = new System.Drawing.Point(12, 39);
             this.richTextBoxLog.Name = "richTextBoxLog";
             this.richTextBoxLog.ReadOnly = true;
-            this.richTextBoxLog.Size = new System.Drawing.Size(600, 665);
+            this.richTextBoxLog.Size = new System.Drawing.Size(600, 664);
             this.richTextBoxLog.TabIndex = 6;
             this.richTextBoxLog.Text = "";
             // 
@@ -60,44 +60,44 @@
             // buttonReflash
             // 
             this.buttonReflash.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonReflash.Location = new System.Drawing.Point(74, 710);
+            this.buttonReflash.Location = new System.Drawing.Point(74, 709);
             this.buttonReflash.Name = "buttonReflash";
             this.buttonReflash.Size = new System.Drawing.Size(75, 23);
             this.buttonReflash.TabIndex = 0;
-            this.buttonReflash.Text = "刷新";
+            this.buttonReflash.Text = "Refresh";
             this.buttonReflash.UseVisualStyleBackColor = true;
             this.buttonReflash.Click += new System.EventHandler(this.buttonReflash_Click);
             // 
             // buttonAutoReflash
             // 
             this.buttonAutoReflash.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonAutoReflash.Location = new System.Drawing.Point(344, 710);
+            this.buttonAutoReflash.Location = new System.Drawing.Point(344, 709);
             this.buttonAutoReflash.Name = "buttonAutoReflash";
-            this.buttonAutoReflash.Size = new System.Drawing.Size(75, 23);
+            this.buttonAutoReflash.Size = new System.Drawing.Size(86, 23);
             this.buttonAutoReflash.TabIndex = 2;
-            this.buttonAutoReflash.Text = "自动刷新";
+            this.buttonAutoReflash.Text = "Auto Refresh";
             this.buttonAutoReflash.UseVisualStyleBackColor = true;
             this.buttonAutoReflash.Click += new System.EventHandler(this.buttonAutoReflash_Click);
             // 
             // buttonSize
             // 
             this.buttonSize.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonSize.Location = new System.Drawing.Point(209, 710);
+            this.buttonSize.Location = new System.Drawing.Point(209, 709);
             this.buttonSize.Name = "buttonSize";
             this.buttonSize.Size = new System.Drawing.Size(75, 23);
             this.buttonSize.TabIndex = 1;
             this.buttonSize.Tag = "";
-            this.buttonSize.Text = "窗口缩小";
+            this.buttonSize.Text = "Reduce";
             this.buttonSize.UseVisualStyleBackColor = true;
             this.buttonSize.Click += new System.EventHandler(this.buttonSize_Click);
             // 
             // buttonOpenFile
             // 
-            this.buttonOpenFile.Location = new System.Drawing.Point(536, 10);
+            this.buttonOpenFile.Location = new System.Drawing.Point(531, 10);
             this.buttonOpenFile.Name = "buttonOpenFile";
-            this.buttonOpenFile.Size = new System.Drawing.Size(75, 23);
+            this.buttonOpenFile.Size = new System.Drawing.Size(80, 23);
             this.buttonOpenFile.TabIndex = 5;
-            this.buttonOpenFile.Text = "选择文件";
+            this.buttonOpenFile.Text = "Select File";
             this.buttonOpenFile.UseVisualStyleBackColor = true;
             this.buttonOpenFile.Click += new System.EventHandler(this.buttonOpenFile_Click);
             // 
@@ -105,7 +105,7 @@
             // 
             this.textBoxFilePath.Location = new System.Drawing.Point(12, 12);
             this.textBoxFilePath.Name = "textBoxFilePath";
-            this.textBoxFilePath.Size = new System.Drawing.Size(518, 21);
+            this.textBoxFilePath.Size = new System.Drawing.Size(513, 21);
             this.textBoxFilePath.TabIndex = 4;
             this.textBoxFilePath.TextChanged += new System.EventHandler(this.textBoxFilePath_TextChanged);
             // 
@@ -113,18 +113,18 @@
             // 
             this.checkBoxAutoScroll.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.checkBoxAutoScroll.AutoSize = true;
-            this.checkBoxAutoScroll.Location = new System.Drawing.Point(477, 714);
+            this.checkBoxAutoScroll.Location = new System.Drawing.Point(477, 713);
             this.checkBoxAutoScroll.Name = "checkBoxAutoScroll";
-            this.checkBoxAutoScroll.Size = new System.Drawing.Size(72, 16);
+            this.checkBoxAutoScroll.Size = new System.Drawing.Size(90, 16);
             this.checkBoxAutoScroll.TabIndex = 3;
-            this.checkBoxAutoScroll.Text = "自动滚动";
+            this.checkBoxAutoScroll.Text = "Auto Scroll";
             this.checkBoxAutoScroll.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 742);
+            this.ClientSize = new System.Drawing.Size(624, 741);
             this.Controls.Add(this.checkBoxAutoScroll);
             this.Controls.Add(this.textBoxFilePath);
             this.Controls.Add(this.buttonOpenFile);

@@ -16,3 +16,11 @@ C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Debug\DebugView.Form1.res
 C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Debug\DebugView.Properties.Resources.resources
 C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Debug\DebugView.csproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\DebugView\DebugView\obj\Debug\DebugView.csprojResolveAssemblyReference.cache
+C:\Users\h1945\Desktop\DebugView\DebugView\bin\Debug\DebugView.exe.config
+C:\Users\h1945\Desktop\DebugView\DebugView\obj\Debug\DebugView.exe
+C:\Users\h1945\Desktop\DebugView\DebugView\obj\Debug\DebugView.pdb
+C:\Users\h1945\Desktop\DebugView\DebugView\bin\Debug\DebugView.exe
+C:\Users\h1945\Desktop\DebugView\DebugView\bin\Debug\DebugView.pdb
+C:\Users\h1945\Desktop\DebugView\DebugView\obj\Debug\DebugView.Form1.resources
+C:\Users\h1945\Desktop\DebugView\DebugView\obj\Debug\DebugView.Properties.Resources.resources
+C:\Users\h1945\Desktop\DebugView\DebugView\obj\Debug\DebugView.csproj.GenerateResource.Cache
