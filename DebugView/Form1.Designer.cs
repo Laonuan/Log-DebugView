@@ -38,6 +38,7 @@
             this.buttonOpenFile = new System.Windows.Forms.Button();
             this.textBoxFilePath = new System.Windows.Forms.TextBox();
             this.checkBoxAutoScroll = new System.Windows.Forms.CheckBox();
+            this.buttonSide = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBoxLog
@@ -60,7 +61,7 @@
             // buttonReflash
             // 
             this.buttonReflash.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonReflash.Location = new System.Drawing.Point(74, 709);
+            this.buttonReflash.Location = new System.Drawing.Point(12, 709);
             this.buttonReflash.Name = "buttonReflash";
             this.buttonReflash.Size = new System.Drawing.Size(75, 23);
             this.buttonReflash.TabIndex = 0;
@@ -71,7 +72,7 @@
             // buttonAutoReflash
             // 
             this.buttonAutoReflash.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonAutoReflash.Location = new System.Drawing.Point(344, 709);
+            this.buttonAutoReflash.Location = new System.Drawing.Point(363, 709);
             this.buttonAutoReflash.Name = "buttonAutoReflash";
             this.buttonAutoReflash.Size = new System.Drawing.Size(86, 23);
             this.buttonAutoReflash.TabIndex = 2;
@@ -82,7 +83,7 @@
             // buttonSize
             // 
             this.buttonSize.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonSize.Location = new System.Drawing.Point(209, 709);
+            this.buttonSize.Location = new System.Drawing.Point(246, 709);
             this.buttonSize.Name = "buttonSize";
             this.buttonSize.Size = new System.Drawing.Size(75, 23);
             this.buttonSize.TabIndex = 1;
@@ -113,18 +114,30 @@
             // 
             this.checkBoxAutoScroll.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.checkBoxAutoScroll.AutoSize = true;
-            this.checkBoxAutoScroll.Location = new System.Drawing.Point(477, 713);
+            this.checkBoxAutoScroll.Location = new System.Drawing.Point(521, 713);
             this.checkBoxAutoScroll.Name = "checkBoxAutoScroll";
             this.checkBoxAutoScroll.Size = new System.Drawing.Size(90, 16);
             this.checkBoxAutoScroll.TabIndex = 3;
             this.checkBoxAutoScroll.Text = "Auto Scroll";
             this.checkBoxAutoScroll.UseVisualStyleBackColor = true;
             // 
+            // buttonSide
+            // 
+            this.buttonSide.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonSide.Location = new System.Drawing.Point(129, 709);
+            this.buttonSide.Name = "buttonSide";
+            this.buttonSide.Size = new System.Drawing.Size(75, 23);
+            this.buttonSide.TabIndex = 7;
+            this.buttonSide.Text = "Right Side";
+            this.buttonSide.UseVisualStyleBackColor = true;
+            this.buttonSide.Click += new System.EventHandler(this.btnSide_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(624, 741);
+            this.Controls.Add(this.buttonSide);
             this.Controls.Add(this.checkBoxAutoScroll);
             this.Controls.Add(this.textBoxFilePath);
             this.Controls.Add(this.buttonOpenFile);
@@ -157,6 +170,7 @@
         private System.Windows.Forms.Button buttonOpenFile;
         private System.Windows.Forms.TextBox textBoxFilePath;
         private System.Windows.Forms.CheckBox checkBoxAutoScroll;
+        private System.Windows.Forms.Button buttonSide;
     }
 }
 

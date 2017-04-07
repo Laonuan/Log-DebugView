@@ -16,16 +16,24 @@ namespace DebugView
     {
         long bytcount = 0;
         bool bClosed = false;
+        int iScreenW;
+        int iScreenH;
 
         public Form1()
         {
             InitializeComponent();
-            this.Width = 640;
-            this.Height = 1024;
+
+            Rectangle ScreenArea = System.Windows.Forms.Screen.GetBounds(this);
+            iScreenW = ScreenArea.Width;
+            iScreenH = ScreenArea.Height;
+            this.Width = iScreenW / 2;
+            this.Height = iScreenH;
+
             buttonSize.Tag = true;
+            buttonSide.Tag = true;
             textBoxFilePath.Text = System.Environment.CurrentDirectory;
             checkBoxAutoScroll.Checked = true;
-            string programName =  ConfigurationManager.AppSettings["programName"];
+            string programName = ConfigurationManager.AppSettings["programName"];
             if (File.Exists(programName))
             {
                 Process.Start(programName);
@@ -88,15 +96,15 @@ namespace DebugView
             
             if((bool)buttonSize.Tag)
             {
-                this.Height = 512;
+                this.Height = iScreenH/2;
                 buttonSize.Tag = false;
                 buttonSize.Text = "Increase";
             }
             else
             {
-                this.Height = 1024;
+                this.Height = iScreenH;
                 buttonSize.Tag = true;
-                buttonSize.Text = "Reduce";
+                buttonSize.Text = "Discrease";
             }
 
             
@@ -155,6 +163,22 @@ namespace DebugView
         {
             richTextBoxLog.Text = "";
             bytcount = 0;
+        }
+
+        private void btnSide_Click(object sender, EventArgs e)
+        {
+            if((bool)buttonSide.Tag)
+            {
+                this.Location = new Point(iScreenW / 2, 0);
+                buttonSide.Tag = false;
+                buttonSide.Text = "Left Side";
+            }
+            else
+            {
+                this.Location = new Point(0, 0);
+                buttonSide.Tag = true;
+                buttonSide.Text = "Right Side";
+            }
         }
 
     }
