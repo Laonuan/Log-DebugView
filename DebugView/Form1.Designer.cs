@@ -55,12 +55,11 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 2000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // buttonReflash
             // 
-            this.buttonReflash.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonReflash.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonReflash.Location = new System.Drawing.Point(12, 709);
             this.buttonReflash.Name = "buttonReflash";
             this.buttonReflash.Size = new System.Drawing.Size(75, 23);
@@ -71,7 +70,7 @@
             // 
             // buttonAutoReflash
             // 
-            this.buttonAutoReflash.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonAutoReflash.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonAutoReflash.Location = new System.Drawing.Point(363, 709);
             this.buttonAutoReflash.Name = "buttonAutoReflash";
             this.buttonAutoReflash.Size = new System.Drawing.Size(86, 23);
@@ -82,7 +81,7 @@
             // 
             // buttonSize
             // 
-            this.buttonSize.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonSize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonSize.Location = new System.Drawing.Point(246, 709);
             this.buttonSize.Name = "buttonSize";
             this.buttonSize.Size = new System.Drawing.Size(75, 23);
@@ -94,6 +93,7 @@
             // 
             // buttonOpenFile
             // 
+            this.buttonOpenFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonOpenFile.Location = new System.Drawing.Point(531, 10);
             this.buttonOpenFile.Name = "buttonOpenFile";
             this.buttonOpenFile.Size = new System.Drawing.Size(80, 23);
@@ -104,15 +104,16 @@
             // 
             // textBoxFilePath
             // 
-            this.textBoxFilePath.Location = new System.Drawing.Point(12, 12);
+            this.textBoxFilePath.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxFilePath.Location = new System.Drawing.Point(12, 10);
             this.textBoxFilePath.Name = "textBoxFilePath";
             this.textBoxFilePath.Size = new System.Drawing.Size(513, 21);
             this.textBoxFilePath.TabIndex = 4;
-            this.textBoxFilePath.TextChanged += new System.EventHandler(this.textBoxFilePath_TextChanged);
             // 
             // checkBoxAutoScroll
             // 
-            this.checkBoxAutoScroll.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.checkBoxAutoScroll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBoxAutoScroll.AutoSize = true;
             this.checkBoxAutoScroll.Location = new System.Drawing.Point(521, 713);
             this.checkBoxAutoScroll.Name = "checkBoxAutoScroll";
@@ -123,7 +124,7 @@
             // 
             // buttonSide
             // 
-            this.buttonSide.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonSide.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonSide.Location = new System.Drawing.Point(129, 709);
             this.buttonSide.Name = "buttonSide";
             this.buttonSide.Size = new System.Drawing.Size(75, 23);
@@ -134,6 +135,7 @@
             // 
             // Form1
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(624, 741);
@@ -147,6 +149,7 @@
             this.Controls.Add(this.richTextBoxLog);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.MinimumSize = new System.Drawing.Size(575, 39);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Tag = "";
@@ -155,6 +158,7 @@
             this.Activated += new System.EventHandler(this.Form1_Activated);
             this.Deactivate += new System.EventHandler(this.Form1_Deactivate);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.DragEnter += new System.Windows.Forms.DragEventHandler(this.Form1_DragEnter);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -42,18 +42,16 @@ namespace DebugView
 
         public void LoadLog()
         {
-            //DateTime time = DateTime.Now;
-            //string filePath = ".\\LOG\\LOG" + DateTime.Now.ToString("yyyyMMdd") + ".txt";
             string filePath = textBoxFilePath.Text;
             FileStream file = null;
             StreamReader reader = null;
             try
             {
-                File.Copy(filePath, ".\\tmp.txt", true);
-                file = new FileStream(".\\tmp.txt", FileMode.Open, FileAccess.Read);
+                file = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
                 reader = new StreamReader(file, Encoding.Default);
                 long dataLengthToRead = file.Length;
                 byte[] bytcontent = new byte[file.Length];
+
                 if (dataLengthToRead > 0 && dataLengthToRead > bytcount)
                 {
                     file.Seek(bytcount, SeekOrigin.Begin);
@@ -106,8 +104,6 @@ namespace DebugView
                 buttonSize.Tag = true;
                 buttonSize.Text = "Discrease";
             }
-
-            
         }
 
         private void buttonAutoReflash_Click(object sender, EventArgs e)
@@ -126,10 +122,6 @@ namespace DebugView
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if(File.Exists(".\\tmp.txt"))
-            {
-                File.Delete(".\\tmp.txt");
-            }
             bClosed = true;
         }
 
@@ -179,6 +171,12 @@ namespace DebugView
                 buttonSide.Tag = true;
                 buttonSide.Text = "Right Side";
             }
+        }
+
+        private void Form1_DragEnter(object sender, DragEventArgs e)
+        {
+            textBoxFilePath.Text = ((System.Array)e.Data.GetData(DataFormats.FileDrop)).GetValue(0).ToString();
+            buttonAutoReflash_Click(null, null);
         }
 
     }
