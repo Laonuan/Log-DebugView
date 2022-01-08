@@ -24,3 +24,11 @@ C:\Users\h1945\Desktop\DebugView\DebugView\obj\Release\DebugView.csprojResolveAs
 C:\Users\h1945\Desktop\DebugView\DebugView\obj\Release\DebugView.Form1.resources
 C:\Users\h1945\Desktop\DebugView\DebugView\obj\Release\DebugView.Properties.Resources.resources
 C:\Users\h1945\Desktop\DebugView\DebugView\obj\Release\DebugView.csproj.GenerateResource.Cache
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\bin\Release\DebugView.exe.config
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\obj\Release\DebugView.exe
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\obj\Release\DebugView.pdb
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\bin\Release\DebugView.exe
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\bin\Release\DebugView.pdb
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\obj\Release\DebugView.Form1.resources
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\obj\Release\DebugView.Properties.Resources.resources
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\obj\Release\DebugView.csproj.GenerateResource.Cache

@@ -30,14 +30,29 @@ namespace DebugView
             this.Height = iScreenH;
 
             buttonSize.Tag = true;
-            buttonSide.Tag = true;
-            textBoxFilePath.Text = System.Environment.CurrentDirectory;
+            buttonSide.Tag = true;           
             checkBoxAutoScroll.Checked = true;
+
             string programName = ConfigurationManager.AppSettings["programName"];
             if (File.Exists(programName))
             {
                 Process.Start(programName);
             }
+
+            textBoxFilePath.Text = System.Environment.CurrentDirectory;
+            string defaultPath = ConfigurationManager.AppSettings["defaultPath"];
+            if(Directory.Exists(defaultPath))
+            {
+                textBoxFilePath.Text = defaultPath;
+            }
+
+            bool stratPostionLeft = ConfigurationManager.AppSettings["startPositonLeft"] == "True" ? true : false;
+            if (stratPostionLeft)
+                btnSide_Click(this, new EventArgs());
+
+            bool stratPostionDown = ConfigurationManager.AppSettings["startPositonDown"] == "True" ? true : false;
+            if (stratPostionDown)
+                btnDown_Click(this, new EventArgs());
         }
 
         public void LoadLog()
@@ -89,6 +104,13 @@ namespace DebugView
             LoadLog();
         }
 
+        private void btnDown_Click(object sender, EventArgs e)
+        {
+            if ((bool)buttonSize.Tag)
+                buttonSize_Click(sender, e);
+            this.Location = new Point(this.Location.X, iScreenH / 2);
+        }
+
         private void buttonSize_Click(object sender, EventArgs e)
         {
             
@@ -101,6 +123,7 @@ namespace DebugView
             else
             {
                 this.Height = iScreenH;
+                this.Location = new Point(this.Location.X, 0);
                 buttonSize.Tag = true;
                 buttonSize.Text = "Discrease";
             }
@@ -139,35 +162,35 @@ namespace DebugView
         private void buttonOpenFile_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDlg = new OpenFileDialog();
-            openFileDlg.InitialDirectory = System.Environment.CurrentDirectory;
-            openFileDlg.Filter = "所有文件(*.*)|*.*";
-            openFileDlg.ShowDialog();
-            
-            if (openFileDlg.FileName != "")
+            if(Directory.Exists(textBoxFilePath.Text) || File.Exists(textBoxFilePath.Text))
             {
-                textBoxFilePath.Text = openFileDlg.FileName;
-                //richTextBoxLog.Text = "";
-                //bytcount = 0;
+                openFileDlg.InitialDirectory =textBoxFilePath.Text;
             }
-        }
+            else
+            {
+                openFileDlg.InitialDirectory = System.Environment.CurrentDirectory;
+            }      
+            openFileDlg.Filter = "所有文件(*.*)|*.*";
 
-        private void textBoxFilePath_TextChanged(object sender, EventArgs e)
-        {
-            richTextBoxLog.Text = "";
-            bytcount = 0;
+           if(openFileDlg.ShowDialog() == DialogResult.OK)
+           {
+               textBoxFilePath.Text = openFileDlg.FileName;
+               richTextBoxLog.Text = "";
+               bytcount = 0;
+           }
         }
 
         private void btnSide_Click(object sender, EventArgs e)
         {
             if((bool)buttonSide.Tag)
             {
-                this.Location = new Point(iScreenW / 2, 0);
+                this.Location = new Point(iScreenW / 2, this.Location.Y);
                 buttonSide.Tag = false;
                 buttonSide.Text = "Left Side";
             }
             else
             {
-                this.Location = new Point(0, 0);
+                this.Location = new Point(0, this.Location.Y);
                 buttonSide.Tag = true;
                 buttonSide.Text = "Right Side";
             }

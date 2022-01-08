@@ -39,6 +39,7 @@
             this.textBoxFilePath = new System.Windows.Forms.TextBox();
             this.checkBoxAutoScroll = new System.Windows.Forms.CheckBox();
             this.buttonSide = new System.Windows.Forms.Button();
+            this.btnDown = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBoxLog
@@ -49,7 +50,7 @@
             this.richTextBoxLog.Location = new System.Drawing.Point(12, 39);
             this.richTextBoxLog.Name = "richTextBoxLog";
             this.richTextBoxLog.ReadOnly = true;
-            this.richTextBoxLog.Size = new System.Drawing.Size(600, 664);
+            this.richTextBoxLog.Size = new System.Drawing.Size(660, 664);
             this.richTextBoxLog.TabIndex = 6;
             this.richTextBoxLog.Text = "";
             // 
@@ -71,7 +72,7 @@
             // buttonAutoReflash
             // 
             this.buttonAutoReflash.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonAutoReflash.Location = new System.Drawing.Point(363, 709);
+            this.buttonAutoReflash.Location = new System.Drawing.Point(448, 709);
             this.buttonAutoReflash.Name = "buttonAutoReflash";
             this.buttonAutoReflash.Size = new System.Drawing.Size(86, 23);
             this.buttonAutoReflash.TabIndex = 2;
@@ -82,7 +83,7 @@
             // buttonSize
             // 
             this.buttonSize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonSize.Location = new System.Drawing.Point(246, 709);
+            this.buttonSize.Location = new System.Drawing.Point(230, 709);
             this.buttonSize.Name = "buttonSize";
             this.buttonSize.Size = new System.Drawing.Size(75, 23);
             this.buttonSize.TabIndex = 1;
@@ -94,7 +95,7 @@
             // buttonOpenFile
             // 
             this.buttonOpenFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonOpenFile.Location = new System.Drawing.Point(531, 10);
+            this.buttonOpenFile.Location = new System.Drawing.Point(591, 10);
             this.buttonOpenFile.Name = "buttonOpenFile";
             this.buttonOpenFile.Size = new System.Drawing.Size(80, 23);
             this.buttonOpenFile.TabIndex = 5;
@@ -108,14 +109,15 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxFilePath.Location = new System.Drawing.Point(12, 10);
             this.textBoxFilePath.Name = "textBoxFilePath";
-            this.textBoxFilePath.Size = new System.Drawing.Size(513, 21);
+            this.textBoxFilePath.ReadOnly = true;
+            this.textBoxFilePath.Size = new System.Drawing.Size(573, 21);
             this.textBoxFilePath.TabIndex = 4;
             // 
             // checkBoxAutoScroll
             // 
             this.checkBoxAutoScroll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBoxAutoScroll.AutoSize = true;
-            this.checkBoxAutoScroll.Location = new System.Drawing.Point(521, 713);
+            this.checkBoxAutoScroll.Location = new System.Drawing.Point(581, 713);
             this.checkBoxAutoScroll.Name = "checkBoxAutoScroll";
             this.checkBoxAutoScroll.Size = new System.Drawing.Size(90, 16);
             this.checkBoxAutoScroll.TabIndex = 3;
@@ -125,7 +127,7 @@
             // buttonSide
             // 
             this.buttonSide.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonSide.Location = new System.Drawing.Point(129, 709);
+            this.buttonSide.Location = new System.Drawing.Point(121, 709);
             this.buttonSide.Name = "buttonSide";
             this.buttonSide.Size = new System.Drawing.Size(75, 23);
             this.buttonSide.TabIndex = 7;
@@ -133,12 +135,24 @@
             this.buttonSide.UseVisualStyleBackColor = true;
             this.buttonSide.Click += new System.EventHandler(this.btnSide_Click);
             // 
+            // btnDown
+            // 
+            this.btnDown.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnDown.Location = new System.Drawing.Point(339, 709);
+            this.btnDown.Name = "btnDown";
+            this.btnDown.Size = new System.Drawing.Size(75, 23);
+            this.btnDown.TabIndex = 8;
+            this.btnDown.Text = "Down";
+            this.btnDown.UseVisualStyleBackColor = true;
+            this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
+            // 
             // Form1
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 741);
+            this.ClientSize = new System.Drawing.Size(684, 741);
+            this.Controls.Add(this.btnDown);
             this.Controls.Add(this.buttonSide);
             this.Controls.Add(this.checkBoxAutoScroll);
             this.Controls.Add(this.textBoxFilePath);
@@ -149,7 +163,7 @@
             this.Controls.Add(this.richTextBoxLog);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.MinimumSize = new System.Drawing.Size(575, 39);
+            this.MinimumSize = new System.Drawing.Size(700, 300);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Tag = "";
@@ -175,6 +189,7 @@
         private System.Windows.Forms.TextBox textBoxFilePath;
         private System.Windows.Forms.CheckBox checkBoxAutoScroll;
         private System.Windows.Forms.Button buttonSide;
+        private System.Windows.Forms.Button btnDown;
     }
 }
 
