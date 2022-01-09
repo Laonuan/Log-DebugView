@@ -41,13 +41,13 @@ namespace DebugView
 
             textBoxFilePath.Text = System.Environment.CurrentDirectory;
             string defaultPath = ConfigurationManager.AppSettings["defaultPath"];
-            if(Directory.Exists(defaultPath))
+            if(Directory.Exists(defaultPath) || File.Exists(defaultPath))
             {
                 textBoxFilePath.Text = defaultPath;
             }
 
-            bool stratPostionLeft = ConfigurationManager.AppSettings["startPositonLeft"] == "True" ? true : false;
-            if (stratPostionLeft)
+            bool startPositonRight = ConfigurationManager.AppSettings["startPositonRight"] == "True" ? true : false;
+            if (startPositonRight)
                 btnSide_Click(this, new EventArgs());
 
             bool stratPostionDown = ConfigurationManager.AppSettings["startPositonDown"] == "True" ? true : false;
@@ -63,7 +63,7 @@ namespace DebugView
             try
             {
                 file = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
-                reader = new StreamReader(file, Encoding.Default);
+                reader = new StreamReader(file, Encoding.UTF8);
                 long dataLengthToRead = file.Length;
                 byte[] bytcontent = new byte[file.Length];
 
@@ -71,7 +71,7 @@ namespace DebugView
                 {
                     file.Seek(bytcount, SeekOrigin.Begin);
                     int lengthRead = file.Read(bytcontent, 0, Convert.ToInt32(dataLengthToRead - bytcount));
-                    string log = System.Text.Encoding.Default.GetString(bytcontent);
+                    string log = Encoding.UTF8.GetString(bytcontent);
                     richTextBoxLog.AppendText(log);
                     if(checkBoxAutoScroll.Checked)
                     {

@@ -24,3 +24,11 @@ C:\Users\h1945\Desktop\DebugView\DebugView\bin\Debug\DebugView.pdb
 C:\Users\h1945\Desktop\DebugView\DebugView\obj\Debug\DebugView.Form1.resources
 C:\Users\h1945\Desktop\DebugView\DebugView\obj\Debug\DebugView.Properties.Resources.resources
 C:\Users\h1945\Desktop\DebugView\DebugView\obj\Debug\DebugView.csproj.GenerateResource.Cache
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\bin\Debug\DebugView.exe.config
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\obj\Debug\DebugView.exe
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\obj\Debug\DebugView.pdb
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\bin\Debug\DebugView.exe
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\bin\Debug\DebugView.pdb
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\obj\Debug\DebugView.Form1.resources
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\obj\Debug\DebugView.Properties.Resources.resources
+C:\Users\h1945\Documents\Visual Studio 2013\Projects\Log-DebugView\DebugView\obj\Debug\DebugView.csproj.GenerateResource.Cache
